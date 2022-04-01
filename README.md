@@ -7,7 +7,7 @@ Outlier is a data object that deviates significantly from the rest of the data o
 
 ## ALGORITHM:
 ### Step 1:-
-Import the numpy,stats and pandas.
+Import the numpy and pandas.
 
 ### Step 2:-
 Read the csv file and convert them into Dataframe.
