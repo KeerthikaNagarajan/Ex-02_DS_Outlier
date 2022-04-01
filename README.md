@@ -25,6 +25,7 @@ Apply Z-score function defined in scipy library to detect the outliers.
 Apply Statistical Method "Interquartile Range(IQR)" ,to remove the Outliers from the Dataset.
 
 ## CODE:
+```
 import pandas as pd
 import numpy as np
 df=pd.read_csv("weight.csv")
@@ -46,6 +47,7 @@ IQR=q3-q1
 df2_new=df2[((df2>=q1-1.5*IQR)&(df2<=q3+1.5*IQR)).all(axis=1)]
 df2_new.boxplot()
 df2_new
+``` 
 
 ## OUTPUT:
 ### Initial DataFrame:
